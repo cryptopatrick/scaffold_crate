@@ -1,0 +1,27 @@
+[package]
+name = "<CRATE_NAME>"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = "<DESCRIPTION>"
+documentation = "https://docs.rs/<CRATE_NAME>"
+homepage = "https://github.com/cryptopatrick/<CRATE_NAME>"
+repository = "https://github.com/cryptopatrick/<CRATE_NAME>"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "<CRATE_NAME>"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
